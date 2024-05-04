@@ -188,3 +188,21 @@ strokeWeight(5);
 stroke(255, 0, 0);
 fill(0, 255, 0);
 ellipse(150, 100, 120, 120);
+-----
+void setup(){
+  size(900, 900);
+  background(0);
+  textSize(30);
+  text("Hello",200, 100); 
+  
+  PFont font = createFont("_", 32);
+  textFont(font);
+  
+  text("Hello",150, 300); 
+  //PImage img = loadImage("__.png");
+  //image(img, 20, 50, 200, 70);
+
+}
+
+void draw(){
+}
